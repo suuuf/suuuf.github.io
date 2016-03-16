@@ -90,12 +90,28 @@ html {
 .navbar-item {
     font-size: 18px;
     font-weight: 500;
-    letter-spacing: 2px;
+    letter-spacing: 1px;
 }
 
 .pdf-btn {
     text-transform: uppercase;
     font-family: 'Lato', sans-serif;
+}
+
+
+@media(min-width: 1200px) {
+    .navbar-item {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .navbar-custom .navbar-brand {
+        font-weight: 700;
+        font-size: 25px;
+    }
+    .pdf-btn {
+        font-size:16px;
+        font-weight: 300;
+    }
 }
 
 /* Most laptops and desktops*/
@@ -178,21 +194,46 @@ and (orientation : portrait) {
 
 /*--- General CSS ---*/
 
-.section-title {
+h1 {
     font-size: 50px;
-    font-family: 'Lato', sans-serif;
+    font-family: 'Open Sans', sans-serif;
     font-weight: 400;
-    line-height: 1;
-    letter-spacing: 2px;
+    letter-spacing: -1px;
+}
+
+h2 {
+    font-size: 42px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    padding: 0 0 15px 0;
+    letter-spacing: -2px;
 }
 
 .lead {
     text-align: left;
+    font-family: 'Roboto Slab', serif;
+    font-weight: 300;
+    margin:0;
 }
 
 .hideme
 {
     opacity:0;
+}
+
+.well {
+    background-color: white;
+    box-shadow: -1px 1px 3px #888888;
+    border-radius: 1px;
+
+}
+
+.well-content {
+    padding: 5px 15px 5px 15px;
+}
+
+.panel {
+    box-shadow: -1px 1px 3px #888888;
 }
 
 
@@ -205,6 +246,8 @@ and (orientation : portrait) {
 .face-image {
     height: 250px;
     width: 250px;
+    box-shadow: -1px 1px 3px #888888;
+
 }
 
 @media(min-width:992px) {
@@ -228,7 +271,7 @@ and (orientation : portrait) {
     height: auto;
     padding-top: 100px;
     text-align: center;
-    background: #F7F7F7;
+    background: #EEEEEE;
 }
 
 /*-------------------------*/
@@ -239,9 +282,9 @@ and (orientation : portrait) {
 
 .job-section {
     height: 100%;
-    padding-top: 70px;
+    padding-top: 100px;
     text-align: center;
-    background: #EDF2F4;
+    background: #EEEEEE;
 }
 
 /*-------------------------*/
@@ -282,9 +325,9 @@ and (orientation : portrait) {
 
 .projects-section {
     height: auto;
-    padding-top: 50px;
+    padding-top: 100px;
     text-align: center;
-    background: #fff;
+    background: #EEEEEE;
 }
 
 /*-------------------------*/
@@ -294,9 +337,9 @@ and (orientation : portrait) {
 
 .education-section {
     height: 100%;
-    padding-top: 70px;
+    padding-top: 100px;
     text-align: center;
-    background: #EDF2F4;
+    background: #EEEEEE;
 }
 
 /*-------------------------*/
