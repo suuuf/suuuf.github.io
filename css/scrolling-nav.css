@@ -99,14 +99,14 @@ html {
 }
 
 
-@media(min-width: 1200px) {
+@media(min-width: 1900px) {
     .navbar-item {
         font-size: 20px;
         letter-spacing: 2px;
     }
     .navbar-custom .navbar-brand {
         font-weight: 700;
-        font-size: 25px;
+        font-size: 23px;
     }
     .pdf-btn {
         font-size:16px;
@@ -195,7 +195,7 @@ and (orientation : portrait) {
 /*--- General CSS ---*/
 
 h1 {
-    font-size: 50px;
+    font-size: 55px;
     font-family: 'Open Sans', sans-serif;
     font-weight: 400;
     letter-spacing: -1px;
@@ -207,6 +207,26 @@ h2 {
     font-weight: 400;
     padding: 0 0 15px 0;
     letter-spacing: -2px;
+}
+
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+h4 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+}
+
+.title {
+    padding:0px;
+    margin:0 0 5px 0;
+}
+
+.subtitle {
+    padding:0px;
+    margin: 0 0 10px 0;
 }
 
 .lead {
@@ -250,6 +270,43 @@ h2 {
 
 }
 
+.hire {
+    font-size: 20px;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    letter-spacing: 0px;
+    padding:0;   
+    vertical-align: middle;
+    margin: 10px 0 10px 0;
+    
+}
+
+.hire-well {
+    margin: auto auto 20px auto;
+}
+
+
+.hire-check {
+    float:left;
+    margin: -3px auto auto 23px;
+}
+
+.progress{
+    height: 33px;
+    margin:auto;
+}
+
+.skill-title{
+    text-align: left;
+    font-size: 18px;
+    margin: 10px 0 10px 0;
+}
+
+.skill-val{
+    text-align: center;
+    font-size: 14px;
+    vertical-align: middle;
+}
 @media(min-width:992px) {
     .face-image{
         height: 300px;
@@ -335,9 +392,28 @@ h2 {
 
 /*--- Edu Section CSS ---*/
 
+
+.iit-logo {
+    padding:15px;
+    width: 480px;
+    box-shadow: -1px 1px 3px #888888;
+}
+
+.edu-list-item {
+    font-size: 14.5px;
+}
+
+.ncp{
+    font-size: 35px;
+}
+
+.education-container {
+    padding-top: 50px 
+}
+
 .education-section {
-    height: 100%;
-    padding-top: 100px;
+    height: auto;
+    padding-top: 50px;
     text-align: center;
     background: #EEEEEE;
 }
