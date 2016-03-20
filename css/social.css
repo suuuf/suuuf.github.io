@@ -59,6 +59,21 @@
 	background-color: #db5a3c;
 }
 
+.icon-button:focus span {
+    border-radius: 0;
+	display: block;
+	height: 0;
+	left: 50%;
+	margin: 0;
+	position: absolute;
+	top: 50%;
+	-webkit-transition: all 0.3s;
+	   -moz-transition: all 0.3s;
+	     -o-transition: all 0.3s;
+	        transition: all 0.3s;
+	width: 0;
+}
+
 /* Icons */
 .icon-button i {
 	background: none;

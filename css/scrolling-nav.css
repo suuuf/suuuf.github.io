@@ -472,4 +472,9 @@ h4 {
     color: white;
 }
 
+.footer-link:focus {
+    text-decoration: none;
+    color: white;
+}
+
 /*-------------------------*/
