@@ -43,6 +43,9 @@
 	border-radius: 3.6rem;
 	margin: -3.5rem;
 }
+
+
+
 .twitter span {
 	background-color: #4099ff;
 }
@@ -92,6 +95,7 @@
 .icon-button .icon-google-plus {
 	color: #db5a3c;
 }
+
 .icon-button:hover .icon-twitter,
 .icon-button:hover .icon-github,
 .icon-button:hover .icon-facebook,
@@ -100,3 +104,126 @@
 	color: white;
 }
 
+@media only screen 
+and (min-device-width : 768px) 
+and (max-device-width : 1024px) {
+    .icon-button {
+
+    }
+
+    .icon-button span {
+        border-radius: 3.6rem;
+        display: block;
+        height: 7rem;
+        left: 50%;
+        margin: -3.5rem;
+        position: absolute;
+        top: 50%;
+        width: 7rem;
+    }
+
+    .icon-button:hover span {
+
+    }        
+
+    .icon-button i {
+        background: none;
+        text-decoration:none;
+        color: inherit;
+        height: 7rem;
+        left: 0;
+        line-height: 7rem;
+        position: absolute;
+        top: 0;
+        width: 7rem;
+        z-index: 10;
+    }
+
+    .icon-button .icon-twitter {
+        color: white;
+    }
+
+    .icon-button .icon-github {
+        color: white;
+    }
+
+    .icon-button .icon-linkedin {
+        color: white;
+    }
+
+    .icon-button .icon-facebook {
+        color: white;
+    }
+
+    .icon-button .icon-google-plus {
+        color: white;
+    }
+
+    .icon-button:hover .icon-twitter,
+    .icon-button:hover .icon-github,
+    .icon-button:hover .icon-facebook,
+    .icon-button:hover .icon-linkedin,
+    .icon-button:hover .icon-google-plus {
+    }
+}
+
+@media(max-width:767px) {
+    .icon-button {
+
+    }
+
+    .icon-button span {
+        border-radius: 3.6rem;
+        display: block;
+        height: 7rem;
+        left: 50%;
+        margin: -3.5rem;
+        position: absolute;
+        top: 50%;
+        width: 7rem;
+    }
+
+    .icon-button:hover span {
+
+    }        
+
+    .icon-button i {
+        background: none;
+        text-decoration:none;
+        color: inherit;
+        height: 7rem;
+        left: 0;
+        line-height: 7rem;
+        position: absolute;
+        top: 0;
+        width: 7rem;
+        z-index: 10;
+    }
+
+    .icon-button .icon-twitter {
+        color: white;
+    }
+
+    .icon-button .icon-github {
+        color: white;
+    }
+
+    .icon-button .icon-linkedin {
+        color: white;
+    }
+
+    .icon-button .icon-facebook {
+        color: white;
+    }
+
+    .icon-button .icon-google-plus {
+        color: white;
+    }
+
+    .icon-button:hover .icon-twitter,
+    .icon-button:hover .icon-github,
+    .icon-button:hover .icon-facebook,
+    .icon-button:hover .icon-linkedin,
+    .icon-button:hover .icon-google-plus {
+    }
+}

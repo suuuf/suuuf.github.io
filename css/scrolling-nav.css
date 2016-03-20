@@ -98,6 +98,7 @@ html {
     font-family: 'Lato', sans-serif;
 }
 
+/* High resolution Displays */
 
 @media(min-width: 1900px) {
     .navbar-item {
