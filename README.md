@@ -1,6 +1,6 @@
-# Profile Website ([suuuf.github.io](http://suuuf.github.io))
+# Profile Website (<a href="http://suuuf.github.io" target="_blank">suuuf.github.io</a>)
 My Resume Website
-<p> [Hosted Site](http://sufyanmenk.me)<p>
+<p> <a href="http://sufyanmenk.me" target="_blank">Hosted Site!</a><p>
 
 
 #File Info
