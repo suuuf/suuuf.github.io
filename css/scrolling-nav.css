@@ -237,7 +237,6 @@ h4 {
 
 .hideme
 {
-    opacity:0;
 }
 
 .well {
@@ -278,6 +277,8 @@ h4 {
 
 }
 
+/* Avaiable for hire CSS
+
 .hire {
     font-size: 20px;
     font-family: 'Open Sans', sans-serif;
@@ -298,6 +299,8 @@ h4 {
     float:left;
     margin: -3px auto auto 23px;
 }
+
+*/
 
 .progress{
     height: 33px;
@@ -342,6 +345,7 @@ h4 {
     padding:1px;
 }
 
+
 .intro-section {
     height: auto;
     padding-top: 100px;
@@ -379,7 +383,7 @@ h4 {
 /*--- Projects Section CSS ---*/
 
 
-/* mm-meta carousel CSS*/
+/* mm-meta & invoice carousel CSS*/
 
 
 .carousel {
@@ -387,26 +391,46 @@ h4 {
     text-align: center;
 }
 
-.carousel-inner img {
+.mm-inner img {
     width: 300px;
     margin: auto;
 }
 
 .carousel-control.right, .carousel-control.left {
     background-image: none;
+}
+
+.invoice-indicators li{
+    background-image: none;
+    border-color: black;
+}
+
+.invoice-indicators li.active {
+    background-image: none;
+    background-color: black;
+}
+
+.invoice-control.right, .invoice-control.left{
+    color: black;
+}
+
+.mm-control.right, .mm-control.left {
     color: #5DD39E;
 }
 
-.carousel-indicators li {
+.mm-indicators li {
     background-image: none;
     border-color: #5DD39E;
 }
 
-.carousel-indicators li.active {
+.mm-indicators li.active {
     background-image: none;
     background-color: #5DD39E;
 }
 
+.app-store{
+    width: 175px;
+}
 
 .projects-section {
     height: auto;
