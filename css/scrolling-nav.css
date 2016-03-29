@@ -398,6 +398,11 @@ h4 {
     margin: auto;
 }
 
+.invoice-inner img {
+    width: 100%;
+    margin: auto;
+}
+
 .carousel-control.right, .carousel-control.left {
     background-image: none;
 }
