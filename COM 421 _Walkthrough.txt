@@ -1,0 +1,10 @@
+Sufyan Menk
+COM 421
+
+Resume Website - Walkthrough
+
+To make my website I used the Bootstrap3 framework,jQuery,HTML,CSS3,and JavaScript. As a result, my website scales on every device. My website is laid out into 5 parts: intro, job experience, projects, education, and the footer. Instead of making each section a new page I decided to put everything on one page. Clicking on the navbar items will scroll the page to the selected section. I also included a button in the navbar that opens the .pdf version of my resume. The intro section has my headshot (need to add), list and proficiency values of technical skills, list of software I have experience in, links to my social media, and my mission statement. The other sections have two columns, one for information and the other for related pictures. The main CSS file is organized by section and general CSS. The footer of the site includes the last update date, and links to the scroll template and icon libraries. Some elements such as the navbar and social media icons change from desktop to tablet to smartphone for a better user interface on mobile. I made sure all the images are compressed and web ready to minimize size and load time.
+
+According to my GIT statistics, the website has gone through 34 iterations.
+
+If I had more time I would have handled images better. In the current version if the user clicks an images in a carousel nothing happens. Instead, I want the image to expand after the user clicks it. I want to add transition animations to the cards as the user scrolls. I want to add live code segments around the site. I want to implement some AngularJS elements just to get experience with AngularJS. I want to set the browser cache variables for the JavaScript and CSS files to increase the website's performance. On mobile, I need to move the mission statement card so, it is underneath my social media.
