@@ -90,7 +90,7 @@
 
     <!-- Intro Section -->
     <section id="intro" class="intro-section">
-    <div class="container">
+    <div class="less container">
       <div class="row">
 
         <div class="col-sm-5">
@@ -202,7 +202,7 @@
 
     <!-- Job Exp Section -->
     <section id="job" class="job-section">
-        <div class="container">
+        <div class="less container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1> Job Experience</h1>
@@ -231,7 +231,7 @@
 
     <!-- Projects Section -->
     <section id="projects" class="projects-section">
-        <div class="container">
+        <div class="less container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Projects</h1>
@@ -373,7 +373,7 @@
 
     <!-- Education Section -->
     <section id="education" class="education-section">
-        <div class="container">
+        <div class="less container">
             <div class="row">
                 <div class="col-lg-12">
                     <h1>Education</h1>
@@ -472,6 +472,35 @@
         $('img').bind('contextmenu', function(e) {
             return false;
         });
+    </script>
+
+    <script>
+
+    var prevWidth = 0;
+    jQuery(window).resize(function() {
+              var windowsize = $(window).innerWidth();
+                console.log(windowsize);
+                if(800<prevWidth && prevWidth<992){
+                if(800<windowsize && windowsize<992){
+
+                }
+                else{
+                    $(".less").addClass("container");
+                    $(".less").removeClass("container-fluid");
+                }
+            }
+            else{
+                if(800<windowsize && windowsize<992){
+                   $(".less").removeClass("container");
+                   $(".less").addClass("container-fluid");
+                }
+                else{
+
+                }
+            }
+            prevWidth = windowsize;
+            });
+
     </script>
 
     <!-- Bootstrap Core JavaScript -->
