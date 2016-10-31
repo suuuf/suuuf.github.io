@@ -501,6 +501,21 @@
             prevWidth = windowsize;
             });
 
+            jQuery(document).ready(function($) {
+                    var windowsize = $(window).innerWidth();
+                    console.log(windowsize);
+                    prevWidth = $(window).innerWidth();
+                    if (800<windowsize && windowsize<992){
+                       $(".less").removeClass("container");
+                       $(".less").addClass("container-fluid");
+
+                    }
+                    else{
+                       $(".less").addClass("container");
+                       $(".less").removeClass("container-fluid");
+
+                    }
+              });
     </script>
 
     <!-- Bootstrap Core JavaScript -->
