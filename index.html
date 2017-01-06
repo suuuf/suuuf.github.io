@@ -37,7 +37,8 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/social.css"/>
-
+    <link href="css/foundation.css" rel="stylesheet" type="text/css" />
+    <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300|Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/>
 
 
@@ -300,6 +301,7 @@
                     </div>
                 </div>
                 </div>
+                               
                 <div class="row">
                     <div class="col-sm-7">
                         <div class="well well-lg">
@@ -311,7 +313,7 @@
                                  During my winter break I developed an online invoice manager for my uncle's small buisness. His specifications listed:
                                  <br/>
                                  <ul class="lead">
-                                     <li>A mobile friendly and easy to use interface,</li>
+                                     <li>A mobile friendly and easy to user interface,</li>
                                      <li>Abilty to view, print, and email invoices,</li>
                                      <li>Ability to view monthly reports,</li>
                                      <li>Ability to add new invoices easily, and quickly.</li>
@@ -368,6 +370,41 @@
                     </div>
 
                 </div>
+                
+                <div class="row">
+                    <div class="col-sm-12">
+                        <div class="well well-lg">
+                         <div class="well-content">
+                             <h2 class="well-title">Website Overhaul</h2>
+                             <h3 class="subtitle">December 2016 - January 2016</h3>
+                             <p class="lead">
+                                 During my winter break I rehauled Makki Masjid website. The specs of the website were:
+                                 <br/>
+                                 <ul class="lead">
+                                     <li>A mobile friendly and appealing user interface,</li>
+                                     <li>Abilty to view daily prayer times,</li>
+                                     <li>Ability to post news,</li>
+                                     <li>Ability to post events,</li>
+                                     <li>Make it easy for users to donate online.</li>
+                                 </ul>
+                                <br/>
+                             <p class="lead">To satify all these specs I made the webiste on the Wordpress platform.</p>
+
+                             <h4><a href="http://makkimasjid.com" target="_blank"></strong>makkimasjid.com</strong></a></h4>
+                             </p>
+                         </div>
+                        </div>
+                    </div>
+                </div>
+
+               <div class="row" style="padding-bottom:10px;">
+                   <div class="col-sm-12">   
+                    <div class="twentytwenty-container">
+                        <img src="media/mm_website/old.png" />
+                        <img src="media/mm_website/new.png" />
+                    </div>
+                   </div>
+               </div>
         </div>
     </section>
 
@@ -536,8 +573,14 @@
         ga('send', 'pageview');
 
     </script>
-
-
+    <script src="js/jquery.event.move.js"></script>
+    <script src="js/jquery.twentytwenty.js"></script>
+     <script>
+    $(window).load(function(){
+      $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.7});
+      $(".twentytwenty-container[data-orientation='vertical']").twentytwenty({default_offset_pct: 0.3, orientation: 'vertical'});
+    });
+    </script>
 </body>
 
 </html>
