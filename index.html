@@ -37,6 +37,7 @@
     <!-- Custom CSS -->
     <link href="css/scrolling-nav.css" rel="stylesheet"/>
     <link rel="stylesheet" href="css/social.css"/>
+    <link rel="stylesheet" href="css/lightbox.css"/>
     <link href="css/twentytwenty.css" rel="stylesheet" type="text/css" />
     <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300|Open+Sans:400,300,600,700,800' rel='stylesheet' type='text/css'/>
 
@@ -262,22 +263,24 @@
                         <!-- Wrapper for slides -->
                         <div class="carousel-inner mm-inner" role="listbox">
                         <div class="item active">
-                          <img src="media/mm/01meta.jpg" alt="App Screenshot 1"/>
+                            <a href="media/mm/01meta.jpg" data-lightbox="mm-set"><img src="media/mm/01meta.jpg" alt="App Screenshot 1"/></a>
                         </div>
 
                         <div class="item">
-                          <img src="media/mm/02meta.jpg" alt="App Screenshot 2"/>
+                            <a href="media/mm/02meta.jpg" data-lightbox="mm-set"><img src="media/mm/02meta.jpg" alt="App Screenshot 2"/></a>
                         </div>
 
                         <div class="item">
-                          <img src="media/mm/03meta.jpg" alt="App Screenshot 3"/>
+                            <a href="media/mm/03meta.jpg" data-lightbox="mm-set"><img src="media/mm/03meta.jpg" alt="App Screenshot 3"/></a>
                         </div>
 
                         <div class="item">
-                          <img src="media/mm/04meta.jpg" alt="App Screenshot 4"/>
+                          <a href="media/mm/04meta.jpg" data-lightbox="mm-set">
+                              <img src="media/mm/04meta.jpg" alt="App Screenshot 4"/></a>
                         </div>
                         <div class="item">
-                          <img src="media/mm/05meta.jpg" alt="App Screenshot 5"/>
+                         <a href="media/mm/05meta.jpg" data-lightbox="mm-set">
+                             <img src="media/mm/05meta.jpg" alt="App Screenshot 5"/></a>
                         </div>
                         </div>
 
@@ -332,18 +335,21 @@
                           <!-- Wrapper for slides -->
                           <div class="carousel-inner invoice-inner" role="listbox">
                             <div class="item active">
-                              <img src="media/invoice/im_1.png" alt="Invoice Manager Login Screenshot"/>
+                                <a href="media/invoice/im_1.png" data-lightbox="im-set"><img src="media/invoice/im_1.png" alt="Invoice Manager Login Screenshot"/></a>
                             </div>
 
                             <div class="item">
-                              <img src="media/invoice/im_2.png" alt="Invoice Manager Search Screenshot"/>
+                                 <a href="media/invoice/im_2.png" data-lightbox="im-set">
+                                 <img src="media/invoice/im_2.png" alt="Invoice Manager Search Screenshot"/></a>
                             </div>
 
                             <div class="item">
-                              <img src="media/invoice/im_3.png" alt="Invoice Manager Add Screenshot"/>
+                                 <a href="media/invoice/im_3.png" data-lightbox="im-set">
+                                 <img src="media/invoice/im_3.png" alt="Invoice Manager Add Screenshot"/></a>
                             </div>
 
                             <div class="item">
+                                 <a href="media/invoice/im_4.png" data-lightbox="im-set">
                               <img src="media/invoice/im_4.png" alt="Invoice Manager Monthly Report Screenshot"/>
                             </div>
                           </div>
@@ -423,7 +429,7 @@
                     </div>
                 </div>
                 <div class="col-sm-7 hidden-xs education-container col-sm-pull-5">
-                    <a href="https://web.iit.edu/" target="_blank"><img class="iit-logo img-thumbnail img-responsive center-block" src="media/IIT.png" alt="Illinois Institue of Technology Logo"/></a>
+                    <a href="media/IIT.png" data-lightbox="IIT.png"><img class="iit-logo img-thumbnail img-responsive center-block" src="media/IIT.png" alt="Illinois Institue of Technology Logo"/></a>
                 </div>
             </div>
             <div class="row">
@@ -449,7 +455,7 @@
                 </div>
 
             <div class="col-sm-7 hidden-xs education-container col-sm-pull-5">
-                    <a href="http://www.northsideprep.org/" target="_blank"><img class="iit-logo img-thumbnail img-responsive center-block" src="media/hs_diploma.png" alt="UNOFFICIAL High School Diploma"/></a>
+                <a href="media/hs_diploma.png" data-lightbox="hs_diploma" data-title="Highschool Diploma"><img class="iit-logo img-thumbnail img-responsive center-block" src="media/hs_diploma.png" alt="UNOFFICIAL High School Diploma"/></a>
                 </div>
 
             </div>
@@ -568,6 +574,7 @@
     <script src="js/jquery.event.move.js"></script>
     <script src="js/jquery.twentytwenty.js"></script>
     <script src="js/jquery.bcSwipe.js"></script>
+    <script src="js/lightbox.js"></script>
      <script>
     $(window).load(function(){
       $(".twentytwenty-container[data-orientation!='vertical']").twentytwenty({default_offset_pct: 0.5});
@@ -577,6 +584,7 @@
     <script>
         $('.carousel').bcSwipe({ threshold: 50 });
     </script>
+   
 </body>
 
 </html>
