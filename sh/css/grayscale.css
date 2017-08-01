@@ -153,6 +153,7 @@ section{
   font-weight: 100;
 }
 .intro .intro-body .intro-text {
+    font-weight: 400;
   font-size: 20px;
 }
 @media (min-width: 768px) {
@@ -161,7 +162,7 @@ section{
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 100px;
+    font-size: 40px;
   }
   .intro .intro-body .intro-text {
     font-size: 26px;
