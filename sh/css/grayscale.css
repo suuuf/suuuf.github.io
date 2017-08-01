@@ -73,6 +73,7 @@ section{
   text-transform: uppercase;
   font-family: "Montserrat", "Helvetica Neue", Helvetica, Arial, sans-serif;
   background-color: black;
+    
 }
 .navbar-custom .navbar-toggle {
   color: white;
@@ -131,6 +132,12 @@ section{
   }
   .navbar-custom.top-nav-collapse {
     padding: 0;
+    background: #a90329; /* Old browsers */
+    background: -moz-linear-gradient(top, #a90329 0%, #8f0222 44%, #6d0019 100%); /* FF3.6-15 */
+    background: -webkit-linear-gradient(top, #a90329 0%,#8f0222 44%,#6d0019 100%); /* Chrome10-25,Safari5.1-6 */
+    background: linear-gradient(to bottom, #a90329 0%,#8f0222 44%,#6d0019 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#a90329', endColorstr='#6d0019',GradientType=0 ); /* IE6-9 */
+    border-bottom: 1px solid rgba(255, 255, 255, 0.3);
   }
 }
 
@@ -152,6 +159,10 @@ section{
   font-family: "Hunger Games", Verdana, Tahoma;
   font-weight: 100;
 }
+
+.intro .intro-body .brand-sub-heading {
+       font-size: 25px;
+    }
 .intro .intro-body .intro-text {
     font-weight: 400;
   font-size: 20px;
@@ -162,8 +173,12 @@ section{
     padding: 0;
   }
   .intro .intro-body .brand-heading {
-    font-size: 40px;
+    font-size: 70px;
   }
+    
+   .intro .intro-body .brand-sub-heading {
+       font-size: 30px;
+    }
   .intro .intro-body .intro-text {
     font-size: 26px;
   }
