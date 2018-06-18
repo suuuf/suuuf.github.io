@@ -16,186 +16,6 @@ html {
     height: 100%;
 }
 
-/*--- Custom Nav-Bar CSS ---*/
-
-.navbar-custom {
-    margin-bottom: 0;
-    border-bottom: 1px solid rgba(255,255,255,.3);
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    color:#fff;
-    background-color: #000;
-}
-
-.navbar-custom .navbar-brand {
-    font-weight: 700;
-    font-size: 20px;
-}
-
-.navbar-custom .navbar-brand:focus {
-    outline: 0;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle {
-    padding: 4px 6px;
-    font-size: 16px;
-    color: inherit;
-}
-
-.navbar-custom .navbar-brand .navbar-toggle:focus,
-.navbar-custom .navbar-brand .navbar-toggle:active {
-    outline: 0;
-}
-
-.navbar-custom a {
-    color: inherit;
-}
-
-.navbar-custom .nav li a {
-    -webkit-transition: background .3s ease-in-out;
-    -moz-transition: background .3s ease-in-out;
-    transition: background .3s ease-in-out;
-}
-
-.navbar-custom .nav li a:hover {
-    outline: 0;
-    color: grey;
-    background-color: transparent;
-}
-
-.navbar-custom .nav li a:focus,
-.navbar-custom .nav li a:active {
-    outline: 0;
-    background-color: transparent;
-}
-
-.navbar-custom .nav li.active {
-    outline: 0;
-}
-
-.navbar-custom .nav li.active a {
-    background-color: rgba(255,255,255,.3);
-}
-
-.navbar-custom .nav li.active a:hover {
-    color: #fff;
-}
-
-.navbar-custom .navbar-toggle .icon-bar {
-    background-color: #fff;
-}
-
-.navbar-custom .navbar-toggle:hover .icon-bar {
-    background-color: darkgrey;
-}
-
-.navbar-item {
-    font-size: 18px;
-    font-weight: 500;
-    letter-spacing: 1px;
-}
-
-.pdf-btn {
-    text-transform: uppercase;
-    font-family: 'Lato', sans-serif;
-    white-space: pre;
-}
-
-/* High resolution Displays */
-
-@media(min-width: 1900px) {
-    .navbar-item {
-        font-size: 20px;
-        letter-spacing: 2px;
-    }
-    .navbar-custom .navbar-brand {
-        font-weight: 700;
-        font-size: 23px;
-    }
-    .pdf-btn {
-        font-size:16px;
-        font-weight: 300;
-    }
-}
-
-/* Most laptops and desktops*/
-
-@media(min-width: 769px) {
-    .navbar-custom {
-        padding: 20px 0;
-        border-bottom: 1px;
-        letter-spacing: 1px;
-        background: 0 0;
-        color:inherit;
-        -webkit-transform: translateZ(0);
-        -webkit-perspective: 1000;
-        -webkit-backface-visibility: hidden;
-        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
-        transition: background .5s ease-in-out,padding .5s ease-in-out;
-    }
-
-    .navbar-custom.top-nav-collapse {
-        padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
-        color:#fff;
-    }
-}
-
-/* iPads and other tablets */
-
-@media only screen
-and (max-device-width : 768px)
-and (orientation : portrait) {
-.navbar-custom {
-        padding: 0;
-        border-bottom: 1px solid rgba(255,255,255,.3);
-        background: #000;
-        color:#fff;
-    }
-}
-
-
-
-/* Devices smaller than iPad mini*/
-
-@media(max-width:767px) {
-    .navbar-item {
-        font-size: 20px;
-    }
-    .navbar-collapse{
-        font-weight: 600;
-        text-align: center;
-    }
-    .navbar-custom .nav li a:hover {
-        outline: 0;
-        color: black;
-        background-color: white;
-    }
-    .navbar-brand
-    {
-        letter-spacing: 1px;
-        font-size: 23px;
-        font-weight: 900;
-        position:absolute;
-        left: 50%;
-        margin-left: -100px !important;
-        display: block;
-    }
-    .pdf-btn {
-        width: 50%;
-        height: 25%;
-        font-size:18px;
-    }
-}
-
-
-
-/*-------------------------*/
-
-
-
 /*--- General CSS ---*/
 
 h1 {
@@ -522,3 +342,192 @@ ul li {
 }
 
 /*-------------------------*/
+
+
+/*--- Custom Nav-Bar CSS ---*/
+
+.navbar-custom {
+    margin-bottom: 0;
+    border-bottom: 1px solid rgba(255,255,255,.3);
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    color:#fff;
+    background-color: #000;
+}
+
+.navbar-custom .navbar-brand {
+    font-weight: 700;
+    font-size: 20px;
+}
+
+.navbar-custom .navbar-brand:focus {
+    outline: 0;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle {
+    padding: 4px 6px;
+    font-size: 16px;
+    color: inherit;
+}
+
+.navbar-custom .navbar-brand .navbar-toggle:focus,
+.navbar-custom .navbar-brand .navbar-toggle:active {
+    outline: 0;
+}
+
+.navbar-custom a {
+    color: inherit;
+}
+
+.navbar-custom .nav li a {
+    -webkit-transition: background .3s ease-in-out;
+    -moz-transition: background .3s ease-in-out;
+    transition: background .3s ease-in-out;
+}
+
+.navbar-custom .nav li a:hover {
+    outline: 0;
+    color: grey;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li a:focus,
+.navbar-custom .nav li a:active {
+    outline: 0;
+    background-color: transparent;
+}
+
+.navbar-custom .nav li.active {
+    outline: 0;
+}
+
+.navbar-custom .nav li.active a {
+    background-color: rgba(255,255,255,.3);
+}
+
+.navbar-custom .nav li.active a:hover {
+    color: #fff;
+}
+
+.navbar-custom .navbar-toggle .icon-bar {
+    background-color: #fff;
+}
+
+.navbar-custom .navbar-toggle:hover .icon-bar {
+    background-color: darkgrey;
+}
+
+.navbar-item {
+    font-size: 18px;
+    font-weight: 500;
+    letter-spacing: 1px;
+}
+
+.pdf-btn {
+    text-transform: uppercase;
+    font-family: 'Lato', sans-serif;
+    white-space: pre;
+}
+
+/* High resolution Displays */
+
+@media(min-width: 1900px) {
+    .navbar-item {
+        font-size: 20px;
+        letter-spacing: 2px;
+    }
+    .navbar-custom .navbar-brand {
+        font-weight: 700;
+        font-size: 23px;
+    }
+    .pdf-btn {
+        font-size:16px;
+        font-weight: 300;
+    }
+}
+
+/* Most laptops and desktops*/
+
+@media(min-width: 769px) {
+    .navbar-custom {
+        padding: 20px 0;
+        border-bottom: 1px;
+        letter-spacing: 1px;
+        background: 0 0;
+        color:inherit;
+        -webkit-transform: translateZ(0);
+        -webkit-perspective: 1000;
+        -webkit-backface-visibility: hidden;
+        -webkit-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        -moz-transition: background .5s ease-in-out,padding .5s ease-in-out;
+        transition: background .5s ease-in-out,padding .5s ease-in-out;
+    }
+
+    .navbar-custom.top-nav-collapse {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+        color:#fff;
+    }
+}
+
+/* iPads and other tablets */
+
+@media only screen
+and (max-device-width : 768px)
+and (orientation : portrait) {
+.navbar-custom {
+        padding: 0;
+        border-bottom: 1px solid rgba(255,255,255,.3);
+        background: #000;
+        color:#fff;
+    }
+}
+
+
+
+/* Devices smaller than iPad mini*/
+
+@media(max-width:767px) {
+    
+    h1 {
+        font-size: 40px;
+    }
+    
+    h2 {
+        font-size: 35px;
+    }
+
+    
+    .well-lg {
+        padding: 9px;
+    }
+    .navbar-item {
+        font-size: 20px;
+    }
+    .navbar-collapse{
+        font-weight: 600;
+        text-align: center;
+    }
+    .navbar-custom .nav li a:hover {
+        outline: 0;
+        color: black;
+        background-color: white;
+    }
+    .navbar-brand
+    {
+        letter-spacing: 1px;
+        font-size: 23px;
+        font-weight: 900;
+        position:absolute;
+        left: 50%;
+        margin-left: -100px !important;
+        display: block;
+    }
+    .pdf-btn {
+        width: 50%;
+        height: 25%;
+        font-size:18px;
+    }
+    
+}
